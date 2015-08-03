@@ -1,0 +1,13 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\ICtrlConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\ICtrlConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\ICtrlConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\ICtrlConsole.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\ICtrlDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\bin\Release\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.csprojResolveAssemblyReference.cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.TrustInfo.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlConsole\obj\x86\Release\ICtrlConsole.pdb

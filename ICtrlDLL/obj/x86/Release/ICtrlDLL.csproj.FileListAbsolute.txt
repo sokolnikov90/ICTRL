@@ -1,0 +1,5 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\bin\x86\Release\ICtrlDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\bin\x86\Release\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\bin\x86\Release\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\obj\x86\Release\ICtrlDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\obj\x86\Release\ICtrlDLL.csprojResolveAssemblyReference.cache

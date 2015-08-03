@@ -1,0 +1,11 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\obj\x86\Release\IManager.csproj.GenerateResource.Cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\IManager.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\IManager.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\protobuf-net.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\bin\Release\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\obj\x86\Release\IManager.csprojResolveAssemblyReference.cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\obj\x86\Release\IManager.ProjectInstaller.resources
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\obj\x86\Release\IManager.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManager\obj\x86\Release\IManager.pdb

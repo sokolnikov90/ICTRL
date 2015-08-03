@@ -1,0 +1,11 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\ICtrl.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\ICtrl.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\ICtrlDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\ICtrlDLL.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\bin\Debug\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\obj\x86\Debug\ICtrl.csprojResolveAssemblyReference.cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\obj\x86\Debug\ICtrl.ProjectInstaller.resources
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\obj\x86\Debug\ICtrl.csproj.GenerateResource.Cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\obj\x86\Debug\ICtrl.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrl\obj\x86\Debug\ICtrl.pdb

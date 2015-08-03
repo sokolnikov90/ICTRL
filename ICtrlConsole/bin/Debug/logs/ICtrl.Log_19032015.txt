@@ -1,0 +1,79 @@
+10:32:46.335| INFO|Reading settings from registry.
+10:32:46.351| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.449| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.503| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.508| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.508| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.508| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.524| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.524| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.540| INFO|System.UnauthorizedAccessException: Отказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+10:32:46.540| INFO|Settings from registry has been read.
+10:32:46.540| INFO|Start GetEscalationDictionary()...
+10:32:47.071| INFO|Reading incidents from database.
+10:32:47.175| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:32:47.223| INFO|SelectRows(...) exception:
+10:32:47.223| INFO|Sql command text: SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:32:47.223| INFO|ERROR [HY000] [Oracle][ODBC][Ora]ORA-00936: missing expression
+
+10:32:47.223| INFO|SQORA32.DLL
+10:32:47.225| INFO|   в System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader()
+   в ICtrlDLL.DBConnection.SelectRows(Object stateInfo) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\DBConnection.cs:строка 110
+10:32:47.225| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:32:47.243| INFO|SelectRows(...) exception:
+10:32:47.243| INFO|Sql command text: SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:32:47.243| INFO|ERROR [HY000] [Oracle][ODBC][Ora]ORA-00936: missing expression
+
+10:32:47.243| INFO|SQORA32.DLL
+10:32:47.243| INFO|   в System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader()
+   в ICtrlDLL.DBConnection.SelectRows(Object stateInfo) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\DBConnection.cs:строка 110
+10:32:47.243| INFO|Settings from database has been read.
+10:32:47.417| INFO|Start SetTimersForDbIncidentTasks()...
+10:32:47.417| INFO|Settings.incidents.Count  = 0
+10:32:47.598| INFO|IncidentListLogger()...
+10:32:47.633| INFO|ICtrl send message:<Message><Hello>ICtrl</Hello></Message>
+10:32:47.964| INFO|ICtrl send message:<Message><Request name="CUserEscalations"></Request></Message>

@@ -1,0 +1,14 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\IManagerConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\IManagerConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\IManagerConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\IManagerConsole.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\protobuf-net.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Release\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.csprojResolveAssemblyReference.cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.TrustInfo.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Release\IManagerConsole.pdb

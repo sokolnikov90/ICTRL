@@ -1,0 +1,7 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Debug\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Debug\IManagerDLL.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Debug\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Debug\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\obj\x86\Debug\IManagerDLL.csprojResolveAssemblyReference.cache
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\obj\x86\Debug\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\obj\x86\Debug\IManagerDLL.pdb

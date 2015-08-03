@@ -1,0 +1,16 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerConsole.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\protobuf-net.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\IManagerDLL.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\bin\Debug\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Debug\IManagerConsole.TrustInfo.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Debug\IManagerConsole.exe.manifest
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Debug\IManagerConsole.application
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Debug\IManagerConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerConsole\obj\x86\Debug\IManagerConsole.pdb
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\IManagerConsole\obj\x86\Debug\IManagerConsole.exe
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\IManagerConsole\obj\x86\Debug\IManagerConsole.pdb

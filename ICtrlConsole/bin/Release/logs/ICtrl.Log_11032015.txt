@@ -1,0 +1,190 @@
+11:20:42.731| INFO|Reading settings from registry.
+11:20:42.731| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.745| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.745| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.745| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.745| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.745| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.759| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.759| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.759| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+11:20:42.759| INFO|Settings from registry has been read.
+11:20:42.934| INFO|Reading incidents from database.
+11:20:42.934| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11) UNION SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11)
+11:20:46.711| INFO|IncidentList: 1~2015-03-10 17:54:57~1~8
+11:20:46.711| INFO|IncidentList: 2~2015-03-10 17:56:05~1~9
+11:20:46.711| INFO|IncidentList: 82~2015-02-25 12:47:09~2~9
+11:20:46.711| INFO|IncidentList: 7~2015-02-12 12:24:01~1~9
+11:20:46.711| INFO|IncidentList: 12~2015-02-15 16:27:07~1~9
+11:20:46.711| INFO|IncidentList: 81~2015-02-20 11:02:05~1~8
+11:20:46.711| INFO|IncidentList: 62~2015-02-06 13:17:31~1~9
+11:20:46.711| INFO|IncidentList: 63~2015-02-06 15:33:32~1~9
+11:20:46.711| INFO|IncidentList: 40~2015-02-17 22:02:06~1~9
+11:20:46.711| INFO|IncidentList: 41~2015-02-17 22:02:06~1~9
+11:20:46.711| INFO|IncidentList: 42~2015-02-17 22:02:11~1~9
+11:20:46.711| INFO|IncidentList: 43~2015-02-17 22:06:46~1~9
+11:20:46.711| INFO|IncidentList: 44~2015-02-17 22:10:45~1~9
+11:20:46.711| INFO|IncidentList: 45~2015-02-17 22:13:57~1~9
+11:20:46.711| INFO|IncidentList: 46~2015-02-17 22:21:19~1~9
+11:20:46.711| INFO|IncidentList: 47~2015-02-18 11:39:52~1~9
+11:20:46.711| INFO|IncidentList: 48~2015-02-18 12:31:53~1~9
+11:20:46.711| INFO|Settings from database has been read.
+11:20:46.711| INFO|Start SetTimersForDbIncidentTasks()...
+11:20:46.711| INFO|Settings.incidents.Count  = 0
+11:20:46.711| INFO|Starting AddIncidentTask(1)
+11:20:46.711| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 1} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(2)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 2} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(82)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 82} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(7)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 7} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(12)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 12} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(81)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 81} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(62)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 62} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(63)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 63} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(40)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 40} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(41)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 41} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(42)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 42} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(43)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 43} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(44)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 44} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(45)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 45} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(46)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 46} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(47)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 47} has been created.
+11:20:46.719| INFO|Starting AddIncidentTask(48)
+11:20:46.719| INFO|Starting SetTimers()...
+11:20:46.719| INFO|Finish SetTimers()...
+11:20:46.719| INFO|IncidentTask {id = 48} has been created.
+11:20:46.719| INFO|IncidentListLogger()...
+11:20:46.719| INFO|1. Id: 1; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 0; AtmId: 534; TimeCreated: 2015-03-10 17:54:57; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+11:20:46.719| INFO|2. Id: 2; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 0; AtmId: 676; TimeCreated: 2015-03-10 17:56:05; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+11:20:46.741| INFO|ICtrl send message:<Message><Hello>ICtrl</Hello></Message>
+12:21:48.268| INFO|Reading settings from registry.
+12:21:48.268| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.268| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.283| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.283| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.283| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.283| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.283| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.297| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.297| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+12:21:48.297| INFO|Settings from registry has been read.
+12:21:48.297| INFO|Reading incidents from database.
+12:21:48.297| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 UNION SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502

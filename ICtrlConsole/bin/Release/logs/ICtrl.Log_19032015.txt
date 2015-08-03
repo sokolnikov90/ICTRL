@@ -1,0 +1,79 @@
+10:31:44.737| INFO|Reading settings from registry.
+10:31:44.737| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.761| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.776| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.776| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue)
+10:31:44.776| INFO|Settings from registry has been read.
+10:31:44.776| INFO|Start GetEscalationDictionary()...
+10:31:50.590| INFO|Reading incidents from database.
+10:31:50.590| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:31:50.700| INFO|SelectRows(...) exception:
+10:31:50.700| INFO|Sql command text: SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:31:50.700| INFO|ERROR [HY000] [Oracle][ODBC][Ora]ORA-00936: missing expression
+
+10:31:50.700| INFO|SQORA32.DLL
+10:31:50.731| INFO|   в System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader()
+   в ICtrlDLL.DBConnection.SelectRows(Object stateInfo)
+10:31:50.731| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:31:50.750| INFO|SelectRows(...) exception:
+10:31:50.750| INFO|Sql command text: SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID NOT IN () AND TYPE_ID NOT IN ()
+10:31:50.750| INFO|ERROR [HY000] [Oracle][ODBC][Ora]ORA-00936: missing expression
+
+10:31:50.750| INFO|SQORA32.DLL
+10:31:50.750| INFO|   в System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   в System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Odbc.OdbcCommand.ExecuteReader()
+   в ICtrlDLL.DBConnection.SelectRows(Object stateInfo)
+10:31:50.750| INFO|Settings from database has been read.
+10:31:50.750| INFO|Start SetTimersForDbIncidentTasks()...
+10:31:50.750| INFO|Settings.incidents.Count  = 0
+10:31:50.750| INFO|IncidentListLogger()...
+10:31:50.817| INFO|ICtrl send message:<Message><Hello>ICtrl</Hello></Message>
+10:31:50.817| INFO|ICtrl send message:<Message><Request name="CUserEscalations"></Request></Message>

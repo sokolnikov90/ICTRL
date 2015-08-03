@@ -1,0 +1,5 @@
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Release\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Release\NLog.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\bin\x86\Release\NLog.xml
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\obj\x86\Release\IManagerDLL.dll
+C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\IManager\IManagerDLL\obj\x86\Release\IManagerDLL.csprojResolveAssemblyReference.cache

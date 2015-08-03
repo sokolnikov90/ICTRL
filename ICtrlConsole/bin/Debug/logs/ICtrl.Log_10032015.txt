@@ -1,0 +1,776 @@
+16:08:37.507| INFO|Reading settings from registry.
+16:08:37.521| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.597| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.643| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.643| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.656| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.656| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.656| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:08:37.656| INFO|Settings from registry has been read.
+16:08:39.598| INFO|Reading incidents from database.
+16:08:40.139| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11) UNION SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11)
+16:08:41.097| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:08:41.097| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.097| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:08:41.097| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.097| INFO|IncidentList: 82~2015-02-25 12:47:09~1~9
+16:08:41.097| INFO|IncidentList: 7~2015-02-12 12:24:01~1~9
+16:08:41.097| INFO|IncidentList: 12~2015-02-15 16:27:07~1~9
+16:08:41.097| INFO|IncidentList: 81~2015-02-20 11:02:05~1~8
+16:08:41.097| INFO|IncidentList: 62~2015-02-06 13:17:31~1~9
+16:08:41.097| INFO|IncidentList: 63~2015-02-06 15:33:32~1~9
+16:08:41.097| INFO|IncidentList: 40~2015-02-17 22:02:06~1~9
+16:08:41.097| INFO|IncidentList: 41~2015-02-17 22:02:06~1~9
+16:08:41.097| INFO|IncidentList: 42~2015-02-17 22:02:11~1~9
+16:08:41.097| INFO|IncidentList: 43~2015-02-17 22:06:46~1~9
+16:08:41.097| INFO|IncidentList: 44~2015-02-17 22:10:45~1~9
+16:08:41.097| INFO|IncidentList: 45~2015-02-17 22:13:57~1~9
+16:08:41.097| INFO|IncidentList: 46~2015-02-17 22:21:19~1~9
+16:08:41.097| INFO|IncidentList: 47~2015-02-18 11:39:52~1~9
+16:08:41.097| INFO|IncidentList: 48~2015-02-18 12:31:53~1~9
+16:08:41.097| INFO|Settings from database has been read.
+16:08:41.624| INFO|Start SetTimersForDbIncidentTasks()...
+16:08:41.624| INFO|Settings.incidents.Count  = 19
+16:08:41.624| INFO|Starting AddIncidentTask(7)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(7,1)...
+16:08:41.624| INFO|Finish SetDueTime(7,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(7,2)...
+16:08:41.624| INFO|Finish SetDueTime(7,2)... Ticks = 754833711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(7,2)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:08:41.624| INFO|dueTimeSpan = 20:58:03.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(7,3)...
+16:08:41.624| INFO|Finish SetDueTime(7,3)... Ticks = 1618833711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(7,3)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:08:41.624| INFO|dueTimeSpan = 1.20:58:03.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(7,4)...
+16:08:41.624| INFO|Finish SetDueTime(7,4)... Ticks = 2482833711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(7,4)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:08:41.624| INFO|dueTimeSpan = 2.20:58:03.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(7,5)...
+16:08:41.624| INFO|Finish SetDueTime(7,5)... Ticks = 3346833711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(7,5)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:08:41.624| INFO|dueTimeSpan = 3.20:58:03.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 7} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(9)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(9,1)...
+16:08:41.624| INFO|Finish SetDueTime(9,1)... Ticks = 1614783711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(9,1)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.624| INFO|dueTimeSpan = 1.20:51:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(9,2)...
+16:08:41.624| INFO|Finish SetDueTime(9,2)... Ticks = 2478783711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(9,2)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.624| INFO|dueTimeSpan = 2.20:51:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(9,3)...
+16:08:41.624| INFO|Finish SetDueTime(9,3)... Ticks = 3342783711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(9,3)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.624| INFO|dueTimeSpan = 3.20:51:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(9,4)...
+16:08:41.624| INFO|Finish SetDueTime(9,4)... Ticks = 4206783711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(9,4)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.624| INFO|dueTimeSpan = 4.20:51:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(9,5)...
+16:08:41.624| INFO|Finish SetDueTime(9,5)... Ticks = 5070783711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(9,5)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:08:41.624| INFO|dueTimeSpan = 5.20:51:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 9} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(1)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(1,1)...
+16:08:41.624| INFO|Finish SetDueTime(1,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(1,2)...
+16:08:41.624| INFO|Finish SetDueTime(1,2)... Ticks = 740583711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(1,2)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:08:41.624| INFO|dueTimeSpan = 20:34:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(1,3)...
+16:08:41.624| INFO|Finish SetDueTime(1,3)... Ticks = 1604583711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(1,3)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:08:41.624| INFO|dueTimeSpan = 1.20:34:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(1,4)...
+16:08:41.624| INFO|Finish SetDueTime(1,4)... Ticks = 2468583711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(1,4)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:08:41.624| INFO|dueTimeSpan = 2.20:34:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(1,5)...
+16:08:41.624| INFO|Finish SetDueTime(1,5)... Ticks = 3332583711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(1,5)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:08:41.624| INFO|dueTimeSpan = 3.20:34:18.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 1} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(4)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(4,1)...
+16:08:41.624| INFO|Finish SetDueTime(4,1)... Ticks = 1560793711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(4,1)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.624| INFO|dueTimeSpan = 1.19:21:19.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(4,2)...
+16:08:41.624| INFO|Finish SetDueTime(4,2)... Ticks = 2424793711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(4,2)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.624| INFO|dueTimeSpan = 2.19:21:19.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(4,3)...
+16:08:41.624| INFO|Finish SetDueTime(4,3)... Ticks = 3288793711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(4,3)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.624| INFO|dueTimeSpan = 3.19:21:19.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(4,4)...
+16:08:41.624| INFO|Finish SetDueTime(4,4)... Ticks = 4152793711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(4,4)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.624| INFO|dueTimeSpan = 4.19:21:19.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(4,5)...
+16:08:41.624| INFO|Finish SetDueTime(4,5)... Ticks = 5016793711055
+16:08:41.624| INFO|Start <dueTime > 0>
+16:08:41.624| INFO|Starting SetDueTime(4,5)...
+16:08:41.624| INFO|Start timer = new Timer(new TimerCallback(ICtrl.Instance.MakeAnReport), new object[] { reportTask }, dueTimeSpan, periodTimeSpan);
+16:08:41.624| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:08:41.624| INFO|dueTimeSpan = 5.19:21:19.3711055 ; periodTimeSpan = -00:00:00.0010000
+16:08:41.624| INFO|Start
+16:08:41.624| INFO|Finish <dueTime > 0>
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 4} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(82)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(82,1)...
+16:08:41.624| INFO|Finish SetDueTime(82,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(82,2)...
+16:08:41.624| INFO|Finish SetDueTime(82,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(82,3)...
+16:08:41.624| INFO|Finish SetDueTime(82,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(82,4)...
+16:08:41.624| INFO|Finish SetDueTime(82,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(82,5)...
+16:08:41.624| INFO|Finish SetDueTime(82,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 82} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(7)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(7,1)...
+16:08:41.624| INFO|Finish SetDueTime(7,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(7,2)...
+16:08:41.624| INFO|Finish SetDueTime(7,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(7,3)...
+16:08:41.624| INFO|Finish SetDueTime(7,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(7,4)...
+16:08:41.624| INFO|Finish SetDueTime(7,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(7,5)...
+16:08:41.624| INFO|Finish SetDueTime(7,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 7} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(12)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(12,1)...
+16:08:41.624| INFO|Finish SetDueTime(12,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(12,2)...
+16:08:41.624| INFO|Finish SetDueTime(12,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(12,3)...
+16:08:41.624| INFO|Finish SetDueTime(12,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(12,4)...
+16:08:41.624| INFO|Finish SetDueTime(12,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(12,5)...
+16:08:41.624| INFO|Finish SetDueTime(12,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 12} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(81)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(81,1)...
+16:08:41.624| INFO|Finish SetDueTime(81,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(81,2)...
+16:08:41.624| INFO|Finish SetDueTime(81,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(81,3)...
+16:08:41.624| INFO|Finish SetDueTime(81,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(81,4)...
+16:08:41.624| INFO|Finish SetDueTime(81,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(81,5)...
+16:08:41.624| INFO|Finish SetDueTime(81,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 81} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(62)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(62,1)...
+16:08:41.624| INFO|Finish SetDueTime(62,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(62,2)...
+16:08:41.624| INFO|Finish SetDueTime(62,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(62,3)...
+16:08:41.624| INFO|Finish SetDueTime(62,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(62,4)...
+16:08:41.624| INFO|Finish SetDueTime(62,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(62,5)...
+16:08:41.624| INFO|Finish SetDueTime(62,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 62} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(63)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(63,1)...
+16:08:41.624| INFO|Finish SetDueTime(63,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(63,2)...
+16:08:41.624| INFO|Finish SetDueTime(63,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(63,3)...
+16:08:41.624| INFO|Finish SetDueTime(63,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(63,4)...
+16:08:41.624| INFO|Finish SetDueTime(63,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(63,5)...
+16:08:41.624| INFO|Finish SetDueTime(63,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 63} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(40)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(40,1)...
+16:08:41.624| INFO|Finish SetDueTime(40,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(40,2)...
+16:08:41.624| INFO|Finish SetDueTime(40,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(40,3)...
+16:08:41.624| INFO|Finish SetDueTime(40,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(40,4)...
+16:08:41.624| INFO|Finish SetDueTime(40,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(40,5)...
+16:08:41.624| INFO|Finish SetDueTime(40,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 40} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(41)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(41,1)...
+16:08:41.624| INFO|Finish SetDueTime(41,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(41,2)...
+16:08:41.624| INFO|Finish SetDueTime(41,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(41,3)...
+16:08:41.624| INFO|Finish SetDueTime(41,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(41,4)...
+16:08:41.624| INFO|Finish SetDueTime(41,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(41,5)...
+16:08:41.624| INFO|Finish SetDueTime(41,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 41} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(42)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(42,1)...
+16:08:41.624| INFO|Finish SetDueTime(42,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(42,2)...
+16:08:41.624| INFO|Finish SetDueTime(42,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(42,3)...
+16:08:41.624| INFO|Finish SetDueTime(42,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(42,4)...
+16:08:41.624| INFO|Finish SetDueTime(42,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(42,5)...
+16:08:41.624| INFO|Finish SetDueTime(42,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 42} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(43)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(43,1)...
+16:08:41.624| INFO|Finish SetDueTime(43,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(43,2)...
+16:08:41.624| INFO|Finish SetDueTime(43,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(43,3)...
+16:08:41.624| INFO|Finish SetDueTime(43,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(43,4)...
+16:08:41.624| INFO|Finish SetDueTime(43,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(43,5)...
+16:08:41.624| INFO|Finish SetDueTime(43,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 43} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(44)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(44,1)...
+16:08:41.624| INFO|Finish SetDueTime(44,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(44,2)...
+16:08:41.624| INFO|Finish SetDueTime(44,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(44,3)...
+16:08:41.624| INFO|Finish SetDueTime(44,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(44,4)...
+16:08:41.624| INFO|Finish SetDueTime(44,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(44,5)...
+16:08:41.624| INFO|Finish SetDueTime(44,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 44} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(45)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(45,1)...
+16:08:41.624| INFO|Finish SetDueTime(45,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(45,2)...
+16:08:41.624| INFO|Finish SetDueTime(45,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(45,3)...
+16:08:41.624| INFO|Finish SetDueTime(45,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(45,4)...
+16:08:41.624| INFO|Finish SetDueTime(45,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(45,5)...
+16:08:41.624| INFO|Finish SetDueTime(45,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 45} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(46)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(46,1)...
+16:08:41.624| INFO|Finish SetDueTime(46,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(46,2)...
+16:08:41.624| INFO|Finish SetDueTime(46,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(46,3)...
+16:08:41.624| INFO|Finish SetDueTime(46,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(46,4)...
+16:08:41.624| INFO|Finish SetDueTime(46,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(46,5)...
+16:08:41.624| INFO|Finish SetDueTime(46,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 46} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(47)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(47,1)...
+16:08:41.624| INFO|Finish SetDueTime(47,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(47,2)...
+16:08:41.624| INFO|Finish SetDueTime(47,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(47,3)...
+16:08:41.624| INFO|Finish SetDueTime(47,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(47,4)...
+16:08:41.624| INFO|Finish SetDueTime(47,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(47,5)...
+16:08:41.624| INFO|Finish SetDueTime(47,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 47} has been created.
+16:08:41.624| INFO|Starting AddIncidentTask(48)
+16:08:41.624| INFO|Starting SetTimers()...
+16:08:41.624| INFO|Counter escatatiln. i = 1
+16:08:41.624| INFO|Starting SetDueTime(48,1)...
+16:08:41.624| INFO|Finish SetDueTime(48,1)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 2
+16:08:41.624| INFO|Starting SetDueTime(48,2)...
+16:08:41.624| INFO|Finish SetDueTime(48,2)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 3
+16:08:41.624| INFO|Starting SetDueTime(48,3)...
+16:08:41.624| INFO|Finish SetDueTime(48,3)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 4
+16:08:41.624| INFO|Starting SetDueTime(48,4)...
+16:08:41.624| INFO|Finish SetDueTime(48,4)... Ticks = 0
+16:08:41.624| INFO|Counter escatatiln. i = 5
+16:08:41.624| INFO|Starting SetDueTime(48,5)...
+16:08:41.624| INFO|Finish SetDueTime(48,5)... Ticks = 0
+16:08:41.624| INFO|Finish SetTimers()...
+16:08:41.624| INFO|IncidentTask {id = 48} has been created.
+16:08:42.587| INFO|0. Id: 7; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 29; AtmId: 2; TimeCreated: 2015-03-08 13:06:45; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 4
+16:08:42.587| INFO|1. Id: 9; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 43; AtmId: 636; TimeCreated: 2015-03-10 13:00:00; TimeChanged: 2015-03-10 15:45:07; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+16:08:42.587| INFO|2. Id: 1; Table: INCIDENTS201503; StatusId: 4; AssignedToId: 43; AtmId: 645; TimeCreated: 2015-03-08 12:43:00; TimeChanged: 2015-03-03 12:11:31; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 4
+16:08:42.587| INFO|3. Id: 4; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 37; AtmId: 690; TimeCreated: 2015-03-10 11:30:01; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+16:08:42.626| INFO|ICtrl send message:<Message><Hello>ICtrl</Hello></Message>
+16:32:55.210| INFO|Reading settings from registry.
+16:32:55.210| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.223| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.223| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.223| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.234| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.234| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.234| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:32:55.234| INFO|Settings from registry has been read.
+16:33:15.052| INFO|Reading incidents from database.
+16:33:15.714| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11) UNION SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11)
+16:33:19.113| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:33:19.113| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:33:19.113| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:33:19.113| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:33:19.113| INFO|IncidentList: 82~2015-02-25 12:47:09~1~9
+16:33:19.113| INFO|IncidentList: 7~2015-02-12 12:24:01~1~9
+16:33:19.113| INFO|IncidentList: 12~2015-02-15 16:27:07~1~9
+16:33:19.113| INFO|IncidentList: 81~2015-02-20 11:02:05~1~8
+16:33:19.113| INFO|IncidentList: 62~2015-02-06 13:17:31~1~9
+16:33:19.113| INFO|IncidentList: 63~2015-02-06 15:33:32~1~9
+16:33:19.113| INFO|IncidentList: 40~2015-02-17 22:02:06~1~9
+16:33:19.113| INFO|IncidentList: 41~2015-02-17 22:02:06~1~9
+16:33:19.113| INFO|IncidentList: 42~2015-02-17 22:02:11~1~9
+16:33:19.113| INFO|IncidentList: 43~2015-02-17 22:06:46~1~9
+16:33:19.113| INFO|IncidentList: 44~2015-02-17 22:10:45~1~9
+16:33:19.113| INFO|IncidentList: 45~2015-02-17 22:13:57~1~9
+16:33:19.113| INFO|IncidentList: 46~2015-02-17 22:21:19~1~9
+16:33:19.113| INFO|IncidentList: 47~2015-02-18 11:39:52~1~9
+16:33:19.113| INFO|IncidentList: 48~2015-02-18 12:31:53~1~9
+16:33:19.113| INFO|Settings from database has been read.
+16:33:20.488| INFO|Start SetTimersForDbIncidentTasks()...
+16:33:20.488| INFO|Settings.incidents.Count  = 0
+16:33:20.488| INFO|Starting AddIncidentTask(7)
+16:33:20.488| INFO|Starting SetTimers()...
+16:33:20.510| INFO|Finish SetTimers()...
+16:33:20.510| INFO|IncidentTask {id = 7} has been created.
+16:33:20.510| INFO|Starting AddIncidentTask(9)
+16:33:20.510| INFO|Starting SetTimers()...
+16:33:20.510| INFO|Finish SetTimers()...
+16:33:20.510| INFO|IncidentTask {id = 9} has been created.
+16:33:20.510| INFO|Starting AddIncidentTask(1)
+16:33:20.510| INFO|Starting SetTimers()...
+16:33:20.510| INFO|Finish SetTimers()...
+16:33:20.510| INFO|IncidentTask {id = 1} has been created.
+16:33:20.510| INFO|Starting AddIncidentTask(4)
+16:33:20.510| INFO|Starting SetTimers()...
+16:33:20.510| INFO|Finish SetTimers()...
+16:33:20.510| INFO|IncidentTask {id = 4} has been created.
+16:33:20.510| INFO|Starting AddIncidentTask(82)
+16:33:20.510| INFO|Starting SetTimers()...
+16:33:20.510| INFO|Finish SetTimers()...
+16:34:55.209| INFO|Reading settings from registry.
+16:34:55.209| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.222| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.222| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.222| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.222| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.237| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.237| INFO|System.UnauthorizedAccessException: ќтказано в доступе к разделу реестра "HKEY_LOCAL_MACHINE\SOFTWARE\LANIT\ICtrl\VERSION300\SUBSCRIBE".
+   в Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck, RegistrySecurity registrySecurity)
+   в Microsoft.Win32.RegistryKey.CreateSubKey(String subkey)
+   в ICtrlDLL.Registry.GetValue(String _sSectionName, String _sKeyName, String& _sValue) в C:\Users\Sokolnikov.LANIT\Documents\Visual Studio 2010\Projects\ICtrl\ICtrlDLL\Registry.cs:строка 18
+16:34:55.237| INFO|Settings from registry has been read.
+16:34:57.960| INFO|Reading incidents from database.
+16:34:58.479| INFO|SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201503 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11) UNION SELECT ID, TIME_CREATED, TIME_CHANGED, TIME_CLOSED, STATUS_ID, TYPE_ID, ATM_ID, ASSIGNED_TO_ID  FROM INCIDENTS201502 WHERE STATUS_ID IN (1,2,3,4,7) AND TYPE_ID IN (8,9,11)
+16:34:59.508| INFO|IncidentList: 7~2015-03-08 13:06:45~1~8
+16:34:59.508| INFO|IncidentList: 9~2015-03-10 13:00:00~1~9
+16:34:59.508| INFO|IncidentList: 1~2015-03-08 12:43:00~4~8
+16:34:59.508| INFO|IncidentList: 4~2015-03-10 11:30:01~1~9
+16:34:59.508| INFO|IncidentList: 82~2015-02-25 12:47:09~1~9
+16:34:59.508| INFO|IncidentList: 7~2015-02-12 12:24:01~1~9
+16:34:59.508| INFO|IncidentList: 12~2015-02-15 16:27:07~1~9
+16:34:59.508| INFO|IncidentList: 81~2015-02-20 11:02:05~1~8
+16:34:59.508| INFO|IncidentList: 62~2015-02-06 13:17:31~1~9
+16:34:59.508| INFO|IncidentList: 63~2015-02-06 15:33:32~1~9
+16:34:59.508| INFO|IncidentList: 40~2015-02-17 22:02:06~1~9
+16:34:59.508| INFO|IncidentList: 41~2015-02-17 22:02:06~1~9
+16:34:59.508| INFO|IncidentList: 42~2015-02-17 22:02:11~1~9
+16:34:59.508| INFO|IncidentList: 43~2015-02-17 22:06:46~1~9
+16:34:59.508| INFO|IncidentList: 44~2015-02-17 22:10:45~1~9
+16:34:59.508| INFO|IncidentList: 45~2015-02-17 22:13:57~1~9
+16:34:59.508| INFO|IncidentList: 46~2015-02-17 22:21:19~1~9
+16:34:59.508| INFO|IncidentList: 47~2015-02-18 11:39:52~1~9
+16:34:59.508| INFO|IncidentList: 48~2015-02-18 12:31:53~1~9
+16:34:59.508| INFO|Settings from database has been read.
+16:35:00.375| INFO|Start SetTimersForDbIncidentTasks()...
+16:35:00.375| INFO|Settings.incidents.Count  = 0
+16:35:00.375| INFO|Starting AddIncidentTask(7)
+16:35:00.375| INFO|Starting SetTimers()...
+16:35:00.375| INFO|Finish SetTimers()...
+16:35:00.375| INFO|IncidentTask {id = 7} has been created.
+16:35:00.375| INFO|Starting AddIncidentTask(9)
+16:35:00.375| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 9} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(1)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 1} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(4)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 4} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(82)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 82} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(7)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 7} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(12)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 12} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(81)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 81} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(62)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 62} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(63)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 63} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(40)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 40} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(41)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 41} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(42)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 42} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(43)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 43} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(44)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 44} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(45)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 45} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(46)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 46} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(47)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 47} has been created.
+16:35:00.383| INFO|Starting AddIncidentTask(48)
+16:35:00.383| INFO|Starting SetTimers()...
+16:35:00.383| INFO|Finish SetTimers()...
+16:35:00.383| INFO|IncidentTask {id = 48} has been created.
+16:35:02.231| INFO|IncidentListLogger()...
+16:35:02.231| INFO|1. Id: 7; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 29; AtmId: 2; TimeCreated: 2015-03-08 13:06:45; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 4
+16:35:02.231| INFO|2. Id: 9; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 43; AtmId: 636; TimeCreated: 2015-03-10 13:00:00; TimeChanged: 2015-03-10 15:45:07; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+16:35:02.231| INFO|3. Id: 1; Table: INCIDENTS201503; StatusId: 4; AssignedToId: 43; AtmId: 645; TimeCreated: 2015-03-08 12:43:00; TimeChanged: 2015-03-03 12:11:31; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 4
+16:35:02.231| INFO|4. Id: 4; Table: INCIDENTS201503; StatusId: 1; AssignedToId: 37; AtmId: 690; TimeCreated: 2015-03-10 11:30:01; TimeChanged: ; TimeClosed: ; Table: INCIDENTS201503; Timers.Count(): 5
+16:35:02.258| INFO|ICtrl send message:<Message><Hello>ICtrl</Hello></Message>
